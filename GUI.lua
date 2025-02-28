@@ -195,7 +195,7 @@ end
       drag(Main)
       
       UICornerMain.Parent = Main
-      UICornerMain.CornerRadius = UDim.new(0.1,4)
+      UICornerMain.CornerRadius = UDim.new(0,10)
       
       DropShadowHolder.Name = "DropShadowHolder"
       DropShadowHolder.Parent = Main
@@ -296,8 +296,8 @@ end
       ScriptTitle.Size = UDim2.new(0, 102, 0, 20)
       ScriptTitle.Font = Enum.Font.GothamSemibold
       ScriptTitle.Text = name
-      ScriptTitle.TextColor3 = Color3.fromRGB(255, 255, 0) --这里改颜色,当前是红色的
-      ScriptTitle.TextSize = 14.000
+      ScriptTitle.TextColor3 = Color3.fromRGB(255, 255, 0) --这里改颜色,当前是黄色的
+      ScriptTitle.TextSize = 15.000
       ScriptTitle.TextScaled = true
       ScriptTitle.TextXAlignment = Enum.TextXAlignment.Left
       
